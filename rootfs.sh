@@ -202,6 +202,9 @@ get_file https://www.cpan.org/src/5.0/perl5.004_05.tar.gz
 # perl 5.005_03
 get_file https://www.cpan.org/src/5.0/perl5.005_03.tar.gz
 
+# binutils 2.14
+get_file https://ftp.gnu.org/gnu/binutils/binutils-2.14.tar.bz2
+
 # General cleanup
 find tmp -name .git -exec rm -rf \;
 
